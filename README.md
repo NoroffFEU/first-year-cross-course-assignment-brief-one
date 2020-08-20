@@ -5,7 +5,7 @@ An online shop selling men's and women’s rain jackets. They are designed for a
 Pushing the Comfort Zone 
 
 ### Target audience
-Age 30 to 50 whose interests are: being outdoors, hiking, exploring, skiing, camping, canoeing 
+Men and women aged 30 to 50 whose interests are: being outdoors, hiking, exploring, skiing, camping, canoeing 
 
 ### Unique selling points
 The jackets are mid-range in price and emphasize durability and being suitable for a range of different weather types ensuring customers are comfortable whatever adventure they go on. 
