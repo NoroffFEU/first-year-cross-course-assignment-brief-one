@@ -1,0 +1,15 @@
+.logo {
+    max-width: 300px;
+    background-color: #ffffff; width: 1000px;
+}
+
+
+body {
+    background-color: #ffffff;
+    background-image: url("backgroundpicturerainydays.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+

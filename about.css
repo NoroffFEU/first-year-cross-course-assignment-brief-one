@@ -1,0 +1,14 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+body,
+footer {
+    background-color: #658087;
+    color: #ffffff
+}
+
+header {
+    background-color: #ffffff;
+}
