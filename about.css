@@ -11,4 +11,10 @@ footer {
 
 header {
     background-color: #ffffff;
+    color: black;
+}
+
+.logo {
+    max-width: 300px;
+    background-color: #ffffff; width: 1000px;
 }
