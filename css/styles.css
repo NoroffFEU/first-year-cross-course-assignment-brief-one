@@ -137,20 +137,25 @@ body.contact {
 
 /*Jackets*/
 
-
-body.jackets {
-    background-color: #ffffff;
-    margin: 0;
-}
-
-.product-image {
-    width: 20%;
-    height: 100%;
-}
-
 .jackets {
-    display: grid;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    }
+    
+.column {
+    float: left;
+    width: 20%;
+    padding: 20px;
 }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
 
 body.jacketspesific {
     background-color: #ffffff;
