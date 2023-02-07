@@ -18,3 +18,10 @@ header {
     max-width: 300px;
     background-color: #ffffff; width: 1000px;
 }
+
+.float {
+    margin: 10px;
+    float: left;
+    width: 300px;
+}
+
