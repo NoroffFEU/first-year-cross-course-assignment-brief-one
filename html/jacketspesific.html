@@ -5,38 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="a list of our rainjackets and outerwear for men and women">
-    <title>Rainydays - Jackets</title>
-    <link href="../css/styles.css" rel="stylesheet">
+    <title>Rainydays | all weather jacket</title>
+    <link href="../css/jackets.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/762fc76c15.js" crossorigin="anonymous"></script>
 </head>
-<body class="jacketspesific">
-    <header>
+<body>
+<header>
+    <div class="topnav">
         <a href="index.html">
             <img src="../pictures.jpg/RainyDays_Logo.png"alt="Logo for rainydays website" class="logo">
         </a>
-        <nav>
-            <ul style="list-style: none;">
-                <div class="item wider-item">
-                <li><i class="fa-solid fa-cart-shopping" class="floated"></i></li>
-                <li><a href="index.html" class="floated">Home</a></li>
-                <li><a href="Contact.html" class="floated">Contact</a></li>
-                <li><a href="About.html" class="floated">About</a></li>
-                <li><a href="Jackets.html" class="floated">Jackets</a> </li>
-                </div>
-            </ul>
-        </nav>
-    </header>
+    <nav>
+        <ul style="list-style: none;">
+            <div class="item wider-item">
+            <li><i class="fa-solid fa-cart-shopping" class="floated"></i></li>
+            <li><a href="index.html" class="floated">Home</a></li>
+            <li><a href="Contact.html" class="floated">Contact</a></li>
+            <li><a href="About.html" class="floated">About</a></li>
+            <li><a href="Jackets.html" class="floated">Jackets</a> </li>
+            </div>
+        </ul>
+    </nav>
+</div>
+</header>
     <main>
-        <section>
-           <h1>1st watch all weather jacket</h1>
-           <h1>$120</h1>
+        <section class="container">
+        <div class="item">
+            <img src="../assets/RainyDays_Jacket1.png" style="height:500px; width:auto; margin-left: 150px; margin-top: 100px;">
+        </div>
+        <div class="text">
+           <h1 style="margin-top: 150px;">1st watch all weather jacket</h1>
+           <h2 style="margin-left: 2px; margin-top:1px;">$120</h2>
+           <h3 style="margin-left: 2px; margin-top:80px;">Description</h3>
+           <p style="margin-left: 2px;">Lorem ipsum dolor sit amet. Qui dolor possimus vel dolores culpa ad dolores consequuntur et magni dolorem. Ad suscipit debitis aut consequuntur fugiat ut molestiae ratione aut ratione voluptas ut consequatur libero.
+            Ut excepturi voluptatem ut laboriosam ipsam sed nemo totam ex assumenda error et possimus mollitia eos voluptatem eius. Et porro repellat non exercitationem voluptates et voluptatibus officia est minima nisi. Et omnis voluptatem et quam similique nam dolorem ipsum est laborum alias qui consequuntur reiciendis rem adipisci aperiam et quae tenetur.</p>
+        </div>
         </section>
         <section>
-            <h2>Description</h2>
-            <p>Lorem ipsum dolor sit amet. Qui dolor possimus vel dolores culpa ad dolores consequuntur et magni dolorem. Ad suscipit debitis aut consequuntur fugiat ut molestiae ratione aut ratione voluptas ut consequatur libero.
-            Ut excepturi voluptatem ut laboriosam ipsam sed nemo totam ex assumenda error et possimus mollitia eos voluptatem eius. Et porro repellat non exercitationem voluptates et voluptatibus officia est minima nisi. Et omnis voluptatem et quam similique nam dolorem ipsum est laborum alias qui consequuntur reiciendis rem adipisci aperiam et quae tenetur.</p>
-                <img src="../assets/RainyDays_Jacket1.png"class="product-image">
-            </section>
+            <div class="properties">
             <label for="size">Choose your size:</label>
             <select name="size" id="size">
                 <option value="XS">XS</option>
@@ -45,10 +51,11 @@
                 <option value="L">L</option>
                 <option value="XL">XL</option>
             </select>
-            <section>
+        </div>
                 <input type="submit" value="Add to cart"/>
-            </section>
+        </section>
         <section>
+            <div class="properties">
             <h2>Properties</h2>
             <i class="fa-solid fa-feather"></i>
             <p>Lightweight</p>
@@ -56,8 +63,8 @@
             <p>Waterproof</p>
             <i class="fa-solid fa-wind"></i>
             <p>Windproof</p>
+            </div>
         </section>
     </main>
-    <footer>Copyright &copy;</footer>
 </body>
 </html>
