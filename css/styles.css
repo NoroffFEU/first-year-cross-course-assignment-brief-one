@@ -69,6 +69,12 @@ p {
     color: #ffffff;
 }
 
+@media only screen and (min-width:481px) and (max-width: 1200px)  {
+  body {
+    width: 90%;
+  }  
+}
+
 
 /*about*/
 
@@ -89,7 +95,7 @@ body.about {
 .floated-right {
     position: relative;
     float: right;
-    margin-top: 100px;
+    margin-top: 10px;
     width: 600px;
     margin-right: 80px;
 }
@@ -104,7 +110,7 @@ body.contact {
 
 .contact h1 {
     text-align: right; margin-right: 350px; position: relative; 
-    margin-top: 20px;
+    margin-top: 120px;
 }
 
 .float {
