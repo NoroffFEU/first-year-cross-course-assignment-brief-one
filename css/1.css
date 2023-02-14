@@ -1,0 +1,25 @@
+.topnav {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid black; 
+
+}
+
+.topnav a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 20px;
+   
+}
+
+img {
+    width: 100%%;
+    height: 35%;
+    float: left;
+}
+
+.item {
+    
+}
