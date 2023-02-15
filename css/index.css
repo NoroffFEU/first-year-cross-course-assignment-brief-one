@@ -37,6 +37,7 @@
 ul {
     text-align: right; 
     margin-top: -170px;
+    list-style: none;
 }
 
 li {
@@ -54,8 +55,6 @@ li {
     margin: 5px auto;
 
 }
-
-
 
 body {
     background-image: url("../pictures.jpg/thumbnail_bakgrunn.jpg");
