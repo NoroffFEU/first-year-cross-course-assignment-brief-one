@@ -1,5 +1,46 @@
-.form__input {
-    display: block;
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.postenlogo
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: white;
+    height: 170px;
+    border: solid; 
+    border-width: 1px;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    width: 280px;
+    height: 100%;
+    margin: 8px 30px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.item {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px;
+    border: groove;
+    color: black;
+    border-radius: 10px;
+    border-width: 2px;
+    margin: 2em;
+}
+
+.fa-cart-shopping {
+    margin-top: 64px;
+}
+
