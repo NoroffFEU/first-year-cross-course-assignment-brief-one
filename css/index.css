@@ -1,0 +1,9 @@
+.home {
+    background-image: url("../pictures.jpg/thumbnail_bakgrunn.jpg");
+    background-size: cover;
+    max-width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position-y: 170px;
+  }
