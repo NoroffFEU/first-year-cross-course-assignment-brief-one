@@ -74,7 +74,7 @@ img {
     text-align: center; 
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:1390px) {
     .floated-right {
         float:inline-end;
         width: 60%;
@@ -90,8 +90,7 @@ img {
     }
 
     img {
-        width: 40%;
-        height: 100%;
+        width: 60%;
     }
 }
 
@@ -114,3 +113,5 @@ img {
         display: none;
     }
 }
+
+    

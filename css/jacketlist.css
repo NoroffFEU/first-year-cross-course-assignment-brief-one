@@ -41,7 +41,7 @@ p {
     margin-bottom: 10px;
 }
 
-@media(min-width: 500px) {
+@media(min-width: 350px) {
     .products {
         grid-template-columns: 1fr 1fr;
     }
