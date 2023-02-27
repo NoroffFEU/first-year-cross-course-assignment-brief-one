@@ -1,6 +1,6 @@
-@media only screen and (min-width:481px) and (max-width: 1200px)  {
+@media only screen and (min-width:320px) and (max-width: 1400px)  {
   body {
-    width: 90%;
+    width: 100%;
   }  
 }
 
@@ -25,7 +25,6 @@ margin-top: 80px;
 color: white;
 }
 
-
 .floated-right {
     position: relative;
     float: right;
@@ -34,60 +33,84 @@ color: white;
     margin-right: 80px;
 }
 
-
 /*Contact*/
 
-.floated-left {
+img {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.floated-text {
     position: relative;
-    float: left;
-    margin-top: 7%;
-    width: 600px;
-    margin-left: 80px;
+    float: right;
+    margin-right: 400px;
 }
 
-/*Jackets*/
+/*checkoutsuccess*/
 
-.jackets {
-    border: solid;
-    border-color: black;
-    border-width: 1px;
+.box {
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    border: solid black;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.comph1{
+    color: black;
+    text-align: center;
+}
+
+.fa-circle-check {
+    color: green;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+.comph2 {
+    color: black;
+    text-align: center; 
+}
+
+@media only screen and (max-width:1000px) {
+    .floated-right {
+        float:inline-end;
+        width: 60%;
     }
-    
-.column {
-    float: left;
-    width: 20%;
-    padding: 20px;
+
+    p {
+        margin-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    .floated-text {
+        margin-right: 80px;
+    }
+
+    img {
+        width: 40%;
+        height: 100%;
+    }
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+@media only screen and (max-width:600px) {
+    .floated-right {
+        display: none;
+    }
 
+    p {
+        margin-right: 15px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
 
-/*jacket spesific*/
+    .floated-text {
+        margin-right: 50px auto;
+    }
 
-body.jacketspesific {
-    background-color: #ffffff;
-}
-
-.product-image {
-    height: 600px;
-    width: auto;
-    margin-top: 0%;
-    padding: 0%;
-    border: solid;
-}
-
-
-
-body.checkout {
-    background-color: #ffffff;
-    margin: 0;
-}
-
-body.checkoutsuccess {
-    background-color: #ffffff;
-    margin: 0;
+    img {
+        display: none;
+    }
 }
