@@ -1,71 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="rainjackets and outerwear for men and women">
-    <title>Rainydays - Checkout</title>
-    <link href="../css/styles.css" rel="stylesheet">
+<html class="index" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="checkout for rainydays shopping" />
+    <title>Rainydays | home</title>
+    <link href="../css/global.css" rel="stylesheet" />
+    <link href="./css/checkout.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/762fc76c15.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  </head>
+  <body class="home">
     <header class="topnav">
-        <div>
-            <a href="index.html">
-            <img src="../pictures.jpg/RainyDays_Logo.png"alt="Logo for rainydays website" class="logo">
-            </a>
-        </div>
-        <nav>
-            <ul>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <a href="index.html" class="item">Home</a>
-                <a href="Contact.html" class="item">Contact</a>
-                <a href="About.html" class="item" >About</a>
-                <a href="jackets.html" class="item">Jackets</a>         
-            </ul>
-        </nav>
+      <div>
+        <a href="index.html">
+          <img src="../pictures.jpg/RainyDays_Logo.png" alt="Logo for rainydays website" class="logo"/>
+        </a>
+      </div>
+      <label for="hamburger" class="hamburger-icon"><i class="fa-solid fa-bars fa-2x"></i></label>
+      <input type="checkbox" id="hamburger" />
+      <nav>
+        <a href="jackets.html" class="item">Jackets</a>
+        <a href="About.html" class="item">About</a>
+        <a href="Contact.html" class="item">Contact</a>
+        <a href="index.html" class="item">Home</a>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </nav>
     </header>
+
     <main>
-    <h1>Order information</h1>
-    <p>need to put something in here, dont know what or how yet</p>
-    <h1>Complete order</h1>
-    <form>
-        <fieldset>
-            <legend>Your details</legend>
-            <label for="name">Your name</label>
-            <input type="text" name="name" id="name" class="form__input" required>
-            <label for="adress">Your adress</label>
-            <input type="adress" name="adress" id="adress" class="form__input" required>
-            <label for="email">Your email</label>
-            <input type="email" name="email" id="email" class="form__input" required>
-        </fieldset>
-        <fieldset>
-            <legend>Delivery information</legend>
-        <p> Shipping with Posten to pick-up point within 2-5 working days</p>
-        <img src="../pictures.jpg/Posten-Norge-Logo.svg.png" class="postenlogo">
-        </fieldset>        
-        <section>
-        <fieldset>
-            <legend>Payment information</legend>
-            <label for="Payment">Card information</label>
-            <input type="name="name" id="name" class="form__input" required>
-            <label for="name">Name on card</label>
-            <input type="adress" name="adress" id="adress" class="form__input" required>
-            <label for="country">Country or region</label>
-            <input type="email" name="email" id="email" class="form__input" required>
-        </fieldset>
-    </section>
-    <section>
-        <fieldset>
-            <legend>Purchase summary</legend>
-            <p>Sum articles:</p>
-            <p>Shipping cost:</p>
-            <p>Total:</p>
-            <input type="submit" value="Pay now"/>
-        </fieldset>
-    </section>
-    </form>
-</main>
-</body>
-</html>
+        <div class="container">
+            <div class="title">
+                <h2>Complete order</h2>
+            </div>
+          <div class="d-flex">
+            <form action="" method="">
+              <label>
+                <span class="fname">First Name <span class="required">*</span></span>
+                <input type="text" name="fname">
+              </label>
+              <label>
+                <span class="lname">Last Name <span class="required">*</span></span>
+                <input type="text" name="lname">
+              </label>
+              <label>
+                <span class="cntry">Country <span class="required">*</span></span>
+                <input type="text" name="selection">
+                </select>
+              </label>
+              <label>
+                <span>Street Address <span class="required">*</span></span>
+                <input type="text" name="houseadd">
+              </label>
+              <label>
+                <span>Postcode / ZIP <span class="required">*</span></span>
+                <input type="text" name="city"> 
+              </label>
+              <label>
+                <span>Town / City <span class="required">*</span></span>
+                <input type="text" name="city"> 
+              </label>
+              <label>
+                <span>Phone <span class="required">*</span></span>
+                <input type="tel" name="city"> 
+              </label>
+              <label>
+                <span>Email Address <span class="required">*</span></span>
+                <input type="email" name="city"> 
+              </label>
+            </form>
+            <div class="Orderinfo">
+              <table>
+                <tr>
+                  <th colspan="2">Order information</th>
+                </tr>
+                <tr>
+                  <td>1st watch jacket x 1(Qty)</td>
+                  <td>$120.00</td>
+                </tr>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>$120.00</td>
+                </tr>
+                <tr>
+                  <td>Shipping</td>
+                  <td>Free shipping</td>
+                </tr>
+              </table><br>
+              <div>
+                <input type="radio" name="dbt" value="dbt" checked> Pay with card
+              </div>
+              <div>
+                <input type="radio" name="dbt" value="cd"> Pay later with Klarna
+              </div>
+              <div>
+                <input type="radio" name="dbt" value="cd"> Pay with Paypal <span>
+                    <br><br>
+                <img src="https://www.logolynx.com/images/logolynx/c3/c36093ca9fb6c250f74d319550acac4d.jpeg" alt="card logos" width="150">
+                <img src="./pictures.jpg/Klarna marketing badge (pink rgb.svg).svg" alt="klarna logo" width="80">
+                </span>
+              </div>
+              <form>
+              <button type="submit" formaction="/checkoutsuccess.html">Place Order</button>
+              </form>
+              </form>
+            </div><!-- Orderinfo -->
+           </div>
+          </div>
+    </main>

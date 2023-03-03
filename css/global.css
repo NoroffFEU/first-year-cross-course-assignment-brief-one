@@ -1,7 +1,9 @@
 /*index*/
 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
 body {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 * {
@@ -16,7 +18,7 @@ header {
   background: white;
   height: 170px;
   border: solid; 
-  border-width: 1px;
+  border-width: 2px;
   width: 99,9%;
 }
 
@@ -29,13 +31,13 @@ header {
 
 ul {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   margin-top: 20px;
   margin-right: 50px;
 }
 
 .item {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
   text-decoration: none;
   padding: 15px;
@@ -52,6 +54,7 @@ ul {
 
 .fa-cart-shopping {
   margin-top: 64px;
+  margin-right: 40px;
 }
 
 

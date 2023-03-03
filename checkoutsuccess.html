@@ -1,42 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="rainjackets and outerwear for men and women">
-    <title>Rainydays - Thank you for shopping</title>
-    <link href="../css/styles.css" rel="stylesheet">
+<!DOCTYPE html>
+<html class="index" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="purchase complete" />
+    <title>Rainydays | Checkout</title>
+    <link href="./css/global.css" rel="stylesheet" />
+    <link href="./css/success.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/762fc76c15.js" crossorigin="anonymous"></script>
-</head>
-<body class="checkoutsuccess">
-    <header>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+  </head>
+  <body class="home">
+    <header class="topnav">
+      <div>
         <a href="index.html">
-            <img src="../pictures.jpg/RainyDays_Logo.png"alt="Logo for rainydays website" class="logo">
+          <img src="../pictures.jpg/RainyDays_Logo.png" alt="Logo for rainydays website" class="logo"/>
         </a>
-        <nav>
-            <ul style="list-style: none;">
-                <div class="item wider-item">
-                <li><i class="fa-solid fa-cart-shopping" class="floated"></i></li>
-                <li><a href="index.html" class="floated">Home</a></li>
-                <li><a href="Contact.html" class="floated">Contact</a></li>
-                <li><a href="About.html" class="floated">About</a></li>
-                <li><a href="Jackets.html" class="floated">Jackets</a> </li>
-                </div>
-            </ul>
-        </nav>
-    </header>
+      </div>
+      <label for="hamburger" class="hamburger-icon"><i class="fa-solid fa-bars fa-2x"></i></label>
+      <input type="checkbox" id="hamburger" />
+      <nav>
+        <a href="jackets.html" class="item">Jackets</a>
+        <a href="About.html" class="item">About</a>
+        <a href="Contact.html" class="item">Contact</a>
+        <a href="index.html" class="item">Home</a>
+        <i class="fa-solid fa-cart-shopping"></i>
+      </nav>
+  </header>
     <main>
-        <section>
-           <h1>Purchase complete</h1>
-           <i class="fa-regular fa-circle-check"></i>
-        </section>
-        <section>
-            <div>
-                <h2>Thank you for shopping at Rainydays</h2>
-            </div>
-        </section>
+      <div class="card">
+        <h1>Purchase complete</h1>
+        <i class="fa-regular fa-circle-check fa-10x"></i>
+        <p>Thank you for shopping at rainydays!</p>
+      </div>
     </main>
-    <footer>Copyright &copy;</footer>
 </body>
 </html>
