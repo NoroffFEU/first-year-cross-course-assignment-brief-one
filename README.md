@@ -1,5 +1,5 @@
 # Rainy Days
-![Rainy Days logo](https://raw.githubusercontent.com/NoroffFEU/first-year-cross-course-assignment-brief-one/master/RainyDays_Logo.png)
+![Rainy Days logo](https://github.com/NoroffFEU/first-year-cross-course-assignment-brief-one/blob/1e5d8b51e53b6e39e2f2fe80de8d90c6102528d0/assets/RainyDays_Logo.png)
 
 An online shop selling men's and women’s rain jackets. They are designed for a range of different outdoor activities that enrich people's lives.
 
